@@ -1,0 +1,13 @@
+{
+  "name": "mj-input",
+  "version": "0.0.3",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "gitHead": "e547f6e2ece6f1851575e888e5f27581fcb57e1d"
+}
