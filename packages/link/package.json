@@ -1,6 +1,6 @@
 {
   "name": "mj-link-001",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "mj-link component",
   "main": "dist/cjs/index.js",
   "module": "dist/es/index.js",
