@@ -1,4 +1,10 @@
-70 error Error: Command failed with exit code 128: git push --follow-tags --no-verify --atomic origin master
-70 error fatal: unable to access 'https://github.com/zhangxuet/storybook-elemeny.git/': OpenSSL SSL_read: Connection was aborted, errno 10053
-70 error     at makeError (C:\Users\Administrator\AppData\Local\Yarn\Data\global\node_modules\@lerna\child-process\node_modules\execa\lib\error.js:60:11)
-70 error     at handlePromise (C:\Users\Administrator\AppData\Local\Yarn\Data\global\node_modules\@lerna\child-process\node_modules\execa\index.js:118:26)
+17 error Error: Command failed with exit code 1: git remote update
+17 error fatal: unable to access 'https://github.com/zhangxuet/storybook-element.git/': OpenSSL SSL_read: Connection was aborted, errno 10053
+17 error error: Could not fetch origin
+17 error Fetching origin
+17 error     at makeError (C:\Users\Administrator\AppData\Local\Yarn\Data\global\node_modules\@lerna\child-process\node_modules\execa\lib\error.js:60:11)
+17 error     at Function.module.exports.sync (C:\Users\Administrator\AppData\Local\Yarn\Data\global\node_modules\@lerna\child-process\node_modules\execa\index.js:194:17)
+17 error     at Object.execSync (C:\Users\Administrator\AppData\Local\Yarn\Data\global\node_modules\@lerna\child-process\index.js:39:16)
+17 error     at updateRemote (C:\Users\Administrator\AppData\Local\Yarn\Data\global\node_modules\@lerna\version\lib\is-behind-upstream.js:34:16)
+17 error     at isBehindUpstream (C:\Users\Administrator\AppData\Local\Yarn\Data\global\node_modules\@lerna\version\lib\is-behind-upstream.js:16:3)
+17 error     at VersionCommand.initialize (C:\Users\Administrator\AppData\Local\Yarn\Data\global\node_modules\@lerna\version\index.js:153:9)
