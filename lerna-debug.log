@@ -1,0 +1,10 @@
+17 error Error: Command failed with exit code 1: git remote update
+17 error fatal: unable to access 'https://github.com/zhangxuet/storybook-element.git/': OpenSSL SSL_read: Connection was aborted, errno 10053
+17 error error: Could not fetch origin
+17 error Fetching origin
+17 error     at makeError (E:\2021\04.vue\03-vuex-ssr\04-gridsome\storybook-element\node_modules\execa\lib\error.js:60:11)
+17 error     at Function.module.exports.sync (E:\2021\04.vue\03-vuex-ssr\04-gridsome\storybook-element\node_modules\execa\index.js:194:17)
+17 error     at Object.execSync (E:\2021\04.vue\03-vuex-ssr\04-gridsome\storybook-element\node_modules\@lerna\child-process\index.js:39:16)
+17 error     at updateRemote (E:\2021\04.vue\03-vuex-ssr\04-gridsome\storybook-element\node_modules\@lerna\version\lib\is-behind-upstream.js:34:16)
+17 error     at isBehindUpstream (E:\2021\04.vue\03-vuex-ssr\04-gridsome\storybook-element\node_modules\@lerna\version\lib\is-behind-upstream.js:16:3)
+17 error     at VersionCommand.initialize (E:\2021\04.vue\03-vuex-ssr\04-gridsome\storybook-element\node_modules\@lerna\version\index.js:153:9)
